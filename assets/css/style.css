@@ -1,0 +1,124 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    --theme-primary: #0067b8;
+    --theme-gray: #f2f2f2;
+    --theme-black: #000000;
+    --theme-white: #ffffff;
+}
+
+.container {
+    max-width: 800px;
+    min-width: 400px;
+    margin: 0 auto;
+}
+.ms-services-wrapper{
+    /* background-color: red; */
+}
+.sec-space{
+    /* background-color: red; */
+    padding: 60px 0;
+}
+
+
+/*=========== Headerstles====== */
+.primary-navbar {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.primary-navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.primary-navbar ul li a {
+    padding: 8px 16px;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--theme-black);
+}
+
+.main-hero-wrapper {
+    position: relative;
+}
+
+.main-hero-wrapper img {
+    width: 100%;
+}
+
+.main-hero-wrapper .hero-overlay {
+
+    position: absolute;
+    width: 38%;
+    top: 12%;
+    left: 18%;
+    transform: translateY(50);
+}
+
+.main-hero-wrapper .hero-overlay h2,
+.main-hero-wrapper .hero-overlay p {
+    margin-bottom: 16px;
+}
+
+.main-hero-wrapper .hero-overlay a:nth-child(3) {
+    background-color: var(theme-primary);
+    color: var(--theme-white);
+    text-decoration: none;
+    padding: 8px 16px;
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.main-hero-wrapper .hero-overlay a:nth-child(4) {
+    color: var(--theme-black);
+
+}
+
+/* =============main area styles======= */
+.ms-services-inner {
+    display: flex;
+}
+
+.card {
+    width: 25%;
+    margin: 16px;
+}
+
+.card:first-child {
+    margin-left: 0;
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.card .body {
+    padding: 16px 0;
+}
+
+.card .body h3,
+.card .body p {
+    margin-bottom: 16px;
+    background-color: yellow;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card .body a {
+    color: var(--theme-primary);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.id_h1{
+
+    background-color: red;
+}
+
+/* ============footerstyles======= */
