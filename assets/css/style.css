@@ -27,7 +27,7 @@
     padding: 16px;
     display: flex;
     justify-content: space-between;
-
+background-color: red;
 }
 
 .primary-navbar ul {
@@ -52,11 +52,11 @@
 
 .main-hero-wrapper .hero-overlay {
 
-    position: absolute;
+    position: relative;
     width: 38%;
     top: 12%;
     left: 18%;
-    transform: translateY(50);
+    
 }
 
 .main-hero-wrapper .hero-overlay h2,
@@ -122,3 +122,26 @@
 }
 
 /* ============footerstyles======= */
+
+
+
+/* ---------------Media Query-------*/
+@media screen and (min-width:500px){
+    .primary-navbar{
+background-color: green;}
+
+.main-hero-wrapper .hero-overlay {
+position: absolute;
+width: 38%;
+top: 12%;
+left: 18%;
+transform: translateY(-50%);
+display: none;
+}
+
+
+}
+@media screen and (min-width:700px){
+    .primary-navbar{
+background-color: orange;}
+}
